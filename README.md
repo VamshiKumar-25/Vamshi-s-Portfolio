@@ -5,7 +5,7 @@ A modern, high-performance personal portfolio website built with **HTML5, CSS3, 
 
 Designed with a focus on **UI/UX**, this portfolio features buttery-smooth animations, a responsive glassmorphism design, and a fully functional contact form without a backend server.
 
-🔗 **[Live Demo](https://your-username.github.io/repo-name)** ---
+🔗 **[Live Demo](https://vamshi-s-portfolio.vercel.app/)** ---
 
 ## ✨ Key Features
 
@@ -43,4 +43,5 @@ Designed with a focus on **UI/UX**, this portfolio features buttery-smooth anima
 │   ├── nexus.png
 │   └── chatse.png
 │
+
 └── README.md           # Project documentation

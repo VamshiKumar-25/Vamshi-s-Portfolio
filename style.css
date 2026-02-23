@@ -75,13 +75,24 @@ nav {
     transition: var(--transition);
 }
 
+/* --- UPDATED LOGO STYLE FOR SVG --- */
 .logo {
-    font-weight: 800;
-    font-size: 1.3rem;
-    letter-spacing: -0.05em;
-    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* This controls the size of your SVG photo */
+.logo svg {
+    height: 40px; /* Adjust this number to make your photo bigger or smaller */
+    width: auto;  /* Keeps your photo perfectly proportioned */
+    transition: transform 0.3s ease; /* Adds a nice hover effect */
+}
+
+/* Optional: Slight zoom when someone hovers over your photo */
+.logo svg:hover {
+    transform: scale(1.05);
+}
 .nav-links { display: flex; gap: 2rem; }
 
 .nav-links a {
@@ -820,4 +831,5 @@ textarea.form-input { min-height: 150px; resize: vertical; }
 @media (max-width: 380px) {
     .hero h1 { font-size: 2rem; }
     .stats-grid { grid-template-columns: 1fr; }
+
 }
